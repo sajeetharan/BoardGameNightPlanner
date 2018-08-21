@@ -3,7 +3,6 @@ import * as ics from 'ics-browser';
 import * as React from 'react';
 import { IEvent } from 'src/common/models';
 
-
 export interface IEventsComponentProperties {
     readonly currentUserId: string;
     readonly error?: string;
